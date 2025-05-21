@@ -1,9 +1,12 @@
+ 
+
 function Navbar () {
 
     return(
-        <div className="navigation">
+        <div class="navigation">
+            <div class="">
 
-        
+            </div>
         <nav>
             <ul>
                 <li>Home</li>
