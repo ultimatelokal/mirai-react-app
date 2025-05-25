@@ -1,0 +1,41 @@
+Home-Container{
+    display: flex;
+    flex-direction: row;
+    max-width: 1298px;
+    height: auto;
+    margin: 0 auto;
+}
+
+Hero-Container{
+    display: flex;
+    flex-direction: row;
+    max-width: 1298px;
+    height: auto;
+    margin: 0 auto;
+    background-color:red !important;
+}
+
+Hero-Container div{
+    display: flex; 
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    margin-left: 10px;
+    margin-right: 10px;  
+}
+
+hero-Container .hero-container-1 {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    background-color: rgb(112, 112, 231);
+}
+
+hero-Container .hero-container-2 {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    background-color: rgb(47, 168, 93);
+}

@@ -1,13 +1,14 @@
-import Header from "./Header.jsx"
-// import Navbar from "./Navbar.jsx"
+import NavbarMain from "./NavbarMain.jsx";
 import Footer from "./Footer.jsx";
-import CustomNavbar from "./CustomNavbar.jsx";
+import Home from "./Home.jsx";
+import './index.css';
 function App() {
     return(
     <>
-    <Header/>
-    <CustomNavbar />
+    <NavbarMain />
+    <Home/>
     <Footer />
+  
     </>
     );
     

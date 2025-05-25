@@ -1,0 +1,54 @@
+.logo-container {
+  display: inline-block;
+  min-width: 100px; /* Adjust based on your logo's size */
+  text-align: left;
+}
+
+.logo-hover {
+  cursor: pointer;
+  display: inline-block;
+}
+
+.logo-text-1 {
+  display: inline-block;
+  opacity: 0;
+  animation: fadeSlideIn .50s forwards;
+}
+
+.logo-text-2 {
+  display: inline-block;
+  opacity: 0;
+  animation: fadeSlideOut .50s forwards;
+}
+
+.mirai-red {
+  color: red;
+  transition: color .50s ease;
+}
+
+.tech-red {
+  color: red;
+  transition: color .50s ease;
+}
+
+@keyframes fadeSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeSlideOut {
+  from {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}

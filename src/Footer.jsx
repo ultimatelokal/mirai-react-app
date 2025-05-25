@@ -1,11 +1,14 @@
-import 'bootstrap/dist/css/bootstrap.min.css'; // Classic Bootstrap
-import { Button, Card } from 'react-bootstrap';
+
 
 function Footer(){
     return (
-        <footer>
-            <p>&copy; {new Date().getFullYear()} miraiTECH Computer Services</p>
+      <footer-container className='bg-light'>
+        <footer className="text-center">
+          <small>
+            © {new Date().getFullYear()} Miraitech Computer Services. Designed and Developed by Miraitech Computer Services.
+          </small>
         </footer>
+      </footer-container>
     );
 }
 
