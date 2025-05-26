@@ -1,5 +1,6 @@
-import { Container } from 'react-bootstrap';
+import { Button, Container } from 'react-bootstrap';
 import './home.css';
+import heroIMG from './images/home-page/hero-1.jpg';
 
 function Home (){
     return(
@@ -7,36 +8,37 @@ function Home (){
             <Hero-Container>
                 <div className='hero-container-1'> 
                     <div>
-                        <p>Meet miraiTECH</p>
+                        <p>MEET MIRAI ミライ</p>
                     </div>
                     <div>
-                        <p>Your Local Expert in CCTV, IT Support & Web Design</p>
+                        <p>Smart Tech. <br/>Secure Spaces.<br/> Creative Solutions.</p>
                     </div>
                     <div>
-                        <p>MiraiTech provides professional CCTV camera installation, computer repair, network setup (Ethernet & Wi-Fi), audio system services, and graphic & web design — all in one reliable service.</p>
+                        <p>MiraiTECH brings you the future of technology in Red Deer, with expert services in CCTV installation, computer repair, network solutions, audio systems, graphic design, and web development.</p>
+                    </div>
+                    <div> 
+                       <a href='#'>Get Free Quote</a> 
+                       <a href='#'>Explore Our Services</a>
                     </div>
                     <div>
-                    </div>
-                    <div>
+                        <p>✅ Serving homes and businesses with trusted tech solutions.</p>
                     </div>
                 </div>
                 <div className='hero-container-2'>
-                     <div>
-                        <p>Meet miraiTECH</p>
-                    </div>
-                    <div>
-                        <p>Your Local Expert in CCTV, IT Support & Web Design</p>
-                    </div>
-                    <div>
-                        <p>MiraiTech provides professional CCTV camera installation, computer repair, network setup (Ethernet & Wi-Fi), audio system services, and graphic & web design — all in one reliable service.</p>
-                    </div>
-                    <div>
-                    </div>
-                    <div>
+                     <div> 
+                        <img src={heroIMG} alt=''/>
                     </div>
                 </div>
             </Hero-Container>
+          <Call-to-action-banner>
+                 
+                {<p>asdasds</p>/* Your content goes here */}
+             
+            </Call-to-action-banner>
+
         </Home-Container>
+        
+        
     );
 }
 
