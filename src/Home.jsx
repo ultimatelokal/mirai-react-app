@@ -1,6 +1,7 @@
 import { Button, Container } from 'react-bootstrap';
 import './home.css';
 import heroIMG from './images/home-page/hero-1.jpg';
+import testIMG from './images/home-page/test.jpg';
 
 function Home (){
     return(
@@ -30,11 +31,51 @@ function Home (){
                     </div>
                 </div>
             </Hero-Container>
-          <Call-to-action-banner>
-                 
-                {<p>asdasds</p>/* Your content goes here */}
-             
-            </Call-to-action-banner>
+
+            
+          <About-Container>
+               <div>
+                <p>WHO WE ARE</p>
+                <p>At Miraitech Computer Services, we specialize in smart technology solutions for homes and businesses. 
+                    From CCTV systems and computer maintenance to network setup, commercial audio, and graphic design — 
+                    we bring expertise, reliability, and a personal touch to every project. We’re proudly local, focused 
+                    on quality, and committed to keeping your technology running smoothly.</p>
+               </div>   
+               <div>
+                 {/* <img src={heroIMG} alt=''/> */}
+               </div>
+            </About-Container>
+
+            <Services-Container>
+                <div>
+                    <div> <img src= {testIMG} alt=''></img></div>
+                    <div>
+                        <p>🛡 CCTV Installation</p>
+                        <p>Protect your property with high-quality surveillance systems.</p>
+                    </div>
+                </div>
+               <div>
+                    <div> <img src= {testIMG} alt=''></img></div>
+                    <div>
+                        <p>🌐 Network & Wi-Fi Setup</p>
+                        <p>Reliable wired and wireless solutions for homes and businesses.</p>
+                    </div>
+                </div>
+                <div>
+                    <div> <img src= {testIMG} alt=''></img></div>
+                    <div>
+                        <p>💻 Web Services</p>
+                        <p>Websites that are fast, modern, and mobile-friendly.</p>
+                    </div>
+                </div>
+                <div>
+                    <div> <img src= {testIMG} alt=''></img></div>
+                    <div>
+                        <p>🔧 And More…</p>
+                        <p>From computer repairs to audio systems — we’ve got you covered.</p>
+                    </div>
+                </div>
+            </Services-Container>
 
         </Home-Container>
         
