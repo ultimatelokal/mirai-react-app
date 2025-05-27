@@ -1,23 +1,32 @@
 Home-Container{
     display: flex;
     flex-direction: column;
-    max-width: 1298px;
+    max-width: 100%;
     height: auto;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: -15px; 
 }
 
 /* Hero Section */
 
 Hero-Container{
     display: flex;
-    flex-direction: row;
-    max-width: 1298px;
     height: auto;
-    margin: 0 auto;
+    background-color: white;
+    max-width: 100%;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
-Hero-Container div{
+Hero-Sub-Container{
+  display: flex;
+  flex-direction: row;
+  max-width: 1298px;
+  height: auto;
+  margin: 0 auto;
+}
+
+Hero-Sub-Container div{
     display: flex; 
     width: 50%;
     height: auto;
@@ -26,14 +35,14 @@ Hero-Container div{
     margin-right: 10px;  
 }
 
-hero-Container .hero-container-1 {
+Hero-Sub-Container .hero-container-1 {
     display: flex;
     flex-direction: column;
     width: auto;
     height: auto;
 }
 
-hero-Container .hero-container-1 div{
+Hero-Sub-Container .hero-container-1 div{
     display: flex;
     width: 100%;
 }
@@ -132,19 +141,29 @@ hero-Container .hero-container-2 {
 /* Short Services */
 
 Services-Container{  
-    display: flex;
-    flex-direction: row;
-    max-width: 1298px;
-    height: auto;
-    margin: 0 auto;
-    margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  height: auto;
+  background-color: white;
 }
 
-Services-Container div{
+Services-Sub-Container{
+    display: flex;
+    flex-direction: row;
+    max-width: 1268px;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+ 
+}
+
+Services-Sub-Container div{
   overflow: hidden;
 }
 
-Services-Container div > p:nth-child(1) {
+Services-Sub-Container div > p:nth-child(1) {
    border-bottom: .5px solid rgb(206, 206, 206);  
    border-spacing: 10px;
    padding-bottom: 10px;
@@ -154,16 +173,16 @@ Services-Container div > p:nth-child(1) {
    text-transform: uppercase;
 } 
 
-Services-Container div > img:nth-child(1){
+Services-Sub-Container div > img:nth-child(1){
   max-width: 100%;
   transition: transform 0.4s ease-in-out;
 } 
 
-Services-Container div > img:nth-child(1):hover {
+Services-Sub-Container div > img:nth-child(1):hover {
   transform: scale(1.3);
 }
 
-Services-Container > div:nth-child(1) {
+Services-Sub-Container > div:nth-child(1) {
    display: flex;
    flex-direction: column;
    max-width: 24%;
@@ -173,7 +192,7 @@ Services-Container > div:nth-child(1) {
    margin: 0 auto;
 }
 
-Services-Container > div:nth-child(2) {
+Services-Sub-Container > div:nth-child(2) {
   display: flex;
   flex-direction: column;
   max-width: 24%;
@@ -183,7 +202,7 @@ Services-Container > div:nth-child(2) {
   margin: 0 auto;
 }
 
-Services-Container > div:nth-child(3) {
+Services-Sub-Container> div:nth-child(3) {
   display: flex;
   flex-direction: column;
   max-width: 24%;
@@ -193,7 +212,7 @@ Services-Container > div:nth-child(3) {
   margin: 0 auto;
 }
 
-Services-Container > div:nth-child(4) {
+Services-Sub-Container > div:nth-child(4) {
   display: flex;
   flex-direction: column;
   max-width: 24%;
@@ -206,34 +225,73 @@ Services-Container > div:nth-child(4) {
 
 /* Short About Us */
 
-About-Container{
+/* About-Container{
     display: flex;
     flex-direction: column;
     max-width: 1298px;
     height: auto;
     margin: 0 auto;
     margin-top: 50px;
+   
+} */
+ About-Container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1298px;
+  margin: 0 auto;
+}
+
+#particles-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  /* Center horizontally */
+  align-items: center;      /* Center vertically (if needed) */
+  max-width: 100%;
+  height: 1px;            /* Adjust height for visibility */
+  position: relative;
+  z-index: -1;
+}
+
+#particles {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0; 
+
+}
+
+#particles canvas {
+  max-width:100%;
+  background-color: white !important;
+  display: block;
+  /* clip-path: inset(100px 20% 50% 10%); */
 }
 
 
-About-Container > div:nth-child(1) {
+About-Container > div:nth-child(2) {
+  display: flex;
+  flex-direction: column;
   font-size: 16px;
   letter-spacing: .5px;
 }
 
-About-Container > div:nth-child(1) > p:nth-child(1) {
+About-Container > div:nth-child(2) > p:nth-child(1) {
+  display: flex;
   font-size: 50px;
   font-weight: bolder;
   letter-spacing: 1.5px;
 }
 
-About-Container > div:nth-child(2) {
+About-Container > div:nth-child(3) {
+  display: flex;
   font-size: 50px;
   font-weight: bolder;
   letter-spacing: 2px;
 }
 
 .hero-container-1 > div:nth-child(3) {
+  display: flex;
   font-size: 18px;
   font-weight: normal;
   letter-spacing: .5px;

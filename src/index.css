@@ -28,9 +28,7 @@ footer-container{
   background-color: gray !important;
 }
 
-footer-container{
-  margin-top: 15px;
-}
+ 
 footer{
   display: flex;
   flex-direction: column;
@@ -38,6 +36,7 @@ footer{
   max-width: 1298px;
   height: auto;
 }
+ 
 
 @media (prefers-color-scheme: light) {
   :root {
