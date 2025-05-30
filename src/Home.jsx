@@ -147,55 +147,61 @@ function Home (){
             </Services-Container>
 
             <What-You-Get-Container>
-                 <section className="what-you-get">
-      <h2>💡 What You Get With Miraitech</h2>
-      <p className="subtitle">Showcase benefits that matter to the customer</p>
-
-      <div className="benefit-grid">
-        <div className="benefit-item">
-          <FaPeace className="icon" />
-          <div>
-            <h3>Peace of Mind</h3>
-            <p>Reliable systems and support — no more tech stress.</p>
-          </div>
-        </div>
-        <div className="benefit-item">
-          <FaWifi className="icon" />
-          <div>
-            <h3>Strong Connectivity</h3>
-            <p>No more lag or weak spots — we optimize Wi-Fi and Ethernet like pros.</p>
-          </div>
-        </div>
-        <div className="benefit-item">
-          <FaVideo className="icon" />
-          <div>
-            <h3>Smarter Surveillance</h3>
-            <p>Get clarity, reliability, and mobile access from your CCTV system.</p>
-          </div>
-        </div>
-        <div className="benefit-item">
-          <FaVolumeUp className="icon" />
-          <div>
-            <h3>Powerful Sound Solutions</h3>
-            <p>Crystal-clear announcements, music, or audio throughout your business.</p>
-          </div>
-        </div>
-        <div className="benefit-item">
-          <FaBriefcase className="icon" />
-          <div>
-            <h3>All-in-One Tech Partner</h3>
-            <p>One call for repairs, setup, design, and installations — we do it all.</p>
-          </div>
-        </div>
-        <div className="benefit-item">
-          <FaPaintBrush className="icon" />
-          <div>
-            <h3>Clean, Professional Design</h3>
-            <p>Your brand, your visuals — designed to impress.</p>
-          </div>
-        </div>
-      </div>
-    </section>
+                <What-You-Get-Sub-Container>
+                    <div className='What-You-Get-title'>
+                        <h2>💡 What You Get With Miraitech</h2>
+                        <p className="subtitle">Showcase benefits that matter to the customer</p>
+                    </div>
+                    <div className='benefit-main-container'>
+                        <div className="benefit-container">
+                            <div className="benefit-item">
+                                <FaPeace className="icon" />
+                                <div className='benefit-description'>
+                                    <h3>Peace of Mind</h3>
+                                    <p>Reliable systems and support — no more tech stress.</p>
+                                </div>
+                            </div>
+                            <div className="benefit-item">
+                                <FaWifi className="icon" />
+                                <div className='benefit-description'>
+                                    <h3>Strong Connectivity</h3>
+                                    <p>No more lag or weak spots — we optimize Wi-Fi and Ethernet like pros.</p>
+                                </div>
+                            </div>
+                            <div className="benefit-item">
+                                <FaVideo className="icon" />
+                                <div className='benefit-description'>
+                                    <h3>Smarter Surveillance</h3>
+                                    <p>Get clarity, reliability, and mobile access from your CCTV system.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="benefit-container">
+                            <div className="benefit-item">
+                                <FaVolumeUp className="icon" />
+                                <div className='benefit-description'>
+                                    <h3>Powerful Sound Solutions</h3>
+                                    <p>Crystal-clear announcements, music, or audio throughout your business.</p>
+                                </div>
+                            </div>
+                            <div className="benefit-item">
+                                <FaBriefcase className="icon" />
+                                <div className='benefit-description'>
+                                    <h3>All-in-One Tech Partner</h3>
+                                    <p>One call for repairs, setup, design, and installations — we do it all.</p>
+                                </div>
+                            </div>
+                            <div className="benefit-item">
+                                <FaPaintBrush className="icon" />
+                                <div className='benefit-description'>
+                                    <h3>Clean, Professional Design</h3>
+                                    <p>Your brand, your visuals — designed to impress.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </What-You-Get-Sub-Container>
             </What-You-Get-Container>
 
         </Home-Container>

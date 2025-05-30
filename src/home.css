@@ -218,7 +218,7 @@ Why-Choose-Container{
 Why-Choose-Sub-Container{
   display: flex;
   flex-direction: row-reverse;
-  max-width: 1268px;
+  max-width: 1298px;
   margin: auto;
   padding: 25px 0 0 0;
 }
@@ -369,7 +369,7 @@ Services-Container{
 Services-Sub-Container{
     display: flex;
     flex-direction: row;
-    max-width: 1268px;
+    max-width: 1298px;
     height: auto;
     margin: 0 auto;
     padding-top: 50px;
@@ -419,7 +419,7 @@ Services-Sub-Container .card:hover  {
 
 /* What you get */
 
-.what-you-get {
+/* .what-you-get {
   padding: 60px 20px;
   background-color: #ffffff;
   text-align: center;
@@ -471,4 +471,74 @@ Services-Sub-Container .card:hover  {
   font-size: 0.95rem;
   color: #555;
   margin-top: 6px;
+} */
+
+What-You-Get-Container {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  height: auto;
+  background-color: white;
+}
+
+what-You-Get-Sub-Container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1298px;
+  margin: 0 auto;
+}
+
+.What-You-Get-title {
+display: flex;
+flex-direction: column;
+max-width: 100%;
+margin: 0 auto;
+}
+ 
+.What-You-Get-title h2 {
+color: #1c2436;
+font-weight: bolder !important;
+font-size: 50px;
+letter-spacing: 1.5px;
+margin-top: 25px;
+}
+
+.What-You-Get-title p{
+color: #555;
+font-size: 25px;
+text-align: right;
+margin-bottom: 50px;
+}
+
+.benefit-main-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+}
+
+.benefit-container{
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  margin-bottom: 25px;
+}
+
+.benefit-item {
+  display: flex;
+  flex-direction: row;
+  max-width: 32%;
+  margin: 0 auto;
+  background-color: #f9fafc;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+.benefit-item .icon {
+  /* font-size: 50px; */
+  margin: 5px 20px 0px 0px;
+  /* font-weight: bold; */
+  font-size: 2rem;
+  color: #007acc;
+  flex-shrink: 0;
 }
