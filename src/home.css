@@ -13,9 +13,11 @@ Hero-Container{
     display: flex;
     height: auto;
     background-color: white;
+    color: #1c2436;
     max-width: 100%;
     padding-top: 60px;
     padding-bottom: 60px;
+     border-bottom: 1px solid #ccc;
 }
 
 Hero-Sub-Container{
@@ -154,6 +156,7 @@ hero-Container .hero-container-2 {
   max-width: 1298px;
   margin: 0 auto;
   padding: 50px 0;
+  
 }
 
 #particles-container {
@@ -213,6 +216,7 @@ Why-Choose-Container{
   max-width: 100%;
   /* background-color: rgb(241, 238, 238); */
   background-color: white;
+   border-top: 1px solid #ccc;
 }
 
 Why-Choose-Sub-Container{
@@ -292,69 +296,16 @@ transition: color 0.3s ease, color 0.3s ease;
 Why-Choose-Sub-Container > div:nth-child(2) > .card-container .icon   {
 margin-top: 3px;
 margin-right: 10px;
+color: rgb(14, 110, 152);
 }
 
 Why-Choose-Sub-Container > div:nth-child(2) .card-container .card:hover  {
-  transform: translateY(-5px);
+  transform: translateY(-10px);
   cursor: pointer; 
   color: rgb(225, 196, 28);
   text-shadow: 1px 1px .5px rgba(0, 0, 0, 0.4);
-}
- 
-/* .why-choose {
-  padding: 60px 20px;
-  text-align: center;
-   
-}
-
-.why-choose h2 {
-  font-size: 2rem;
-  margin-bottom: 0.5rem;
-}
-
-.subtitle {
-  font-size: 1rem;
-  color: #555;
-  margin-bottom: 2rem;
-}
-
-.card-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.card {
-  background-color: white;
-  padding: 25px;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-  text-align: left;
-  transition: transform 0.3s ease;
-}
-
-.card:hover {
-  transform: translateY(-5px);
-}
-
-.icon {
-  font-size: 2rem;
-  color: #0077cc;
-  margin-bottom: 10px;
-}
-.card h3 {
-  margin-top: 0;
-  font-size: 1.2rem;
-  color: #333;
-}
-
-.card p {
-  font-size: 0.95rem;
-  color: #555;
-  margin-top: 8px;
-} */
+  cursor:help;
+} 
 
 /* Short Services */
 
@@ -413,65 +364,11 @@ Services-Sub-Container .card img:nth-child(1):hover {
 
 
 Services-Sub-Container .card:hover  {
-  transform: translateY(-5px);
+  transform: translateY(-10px);
   cursor: pointer;
 }
 
 /* What you get */
-
-/* .what-you-get {
-  padding: 60px 20px;
-  background-color: #ffffff;
-  text-align: center;
-}
-
-.what-you-get h2 {
-  font-size: 2rem;
-  margin-bottom: 0.5rem;
-}
-
-.subtitle {
-  font-size: 1rem;
-  color: #555;
-  margin-bottom: 2rem;
-}
-
-.benefit-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 20px;
-  max-width: 1100px;
-  margin: 0 auto;
-  text-align: left;
-}
-
-.benefit-item {
-  display: flex;
-  gap: 15px;
-  align-items: flex-start;
-  background-color: #f9fafc;
-  padding: 20px;
-  border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
-}
-
-.benefit-item .icon {
-  font-size: 2rem;
-  color: #007acc;
-  flex-shrink: 0;
-}
-
-.benefit-item h3 {
-  font-size: 1.1rem;
-  margin: 0;
-  color: #222;
-}
-
-.benefit-item p {
-  font-size: 0.95rem;
-  color: #555;
-  margin-top: 6px;
-} */
 
 What-You-Get-Container {
   display: flex;
@@ -479,6 +376,7 @@ What-You-Get-Container {
   max-width: 100%;
   height: auto;
   background-color: white;
+   border-bottom: 1px solid #ccc;
 }
 
 what-You-Get-Sub-Container {
@@ -496,18 +394,16 @@ margin: 0 auto;
 }
  
 .What-You-Get-title h2 {
-color: #1c2436;
 font-weight: bolder !important;
 font-size: 50px;
 letter-spacing: 1.5px;
-margin-top: 25px;
+margin-top: 25px;  
 }
 
 .What-You-Get-title p{
-color: #555;
 font-size: 25px;
 text-align: right;
-margin-bottom: 50px;
+margin-bottom: 50px; 
 }
 
 .benefit-main-container {
@@ -523,22 +419,79 @@ margin-bottom: 50px;
   margin-bottom: 25px;
 }
 
-.benefit-item {
+div .benefit-item {
   display: flex;
   flex-direction: row;
   max-width: 32%;
-  margin: 0 auto;
-  background-color: #f9fafc;
+  margin: 0 auto; 
   padding: 20px;
   border-radius: 12px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  border: 0.5px solid rgb(227, 226, 226); 
+  transition: background-color 0.4s ease, color 0.4s ease;
+  transition: transform 0.3s ease;
+  color:  rgb(225, 30, 46);
+  background-color: #ffffff;
 }
 
 .benefit-item .icon {
-  /* font-size: 50px; */
   margin: 5px 20px 0px 0px;
-  /* font-weight: bold; */
   font-size: 2rem;
-  color: #007acc;
+  color: #fad643;
   flex-shrink: 0;
+ text-shadow: 20px 20px 6px rgba(0, 0, 0, 0);
 }
+
+div .benefit-item:hover {
+  background: linear-gradient(to right, #1a2238, #2d3e50  );
+  color: rgb(255, 255, 255) !important;
+  cursor:help;
+  transform: translateY(-10px) scale(1.03);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* Call to action */
+
+.cta-section {
+  background: linear-gradient(to right, #0e6e98, #1e88e5, #64b5f6);
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+  border-radius: 12px;
+  margin: 40px auto;
+  max-width: 1100px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.cta-section h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.cta-section p {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+
+.cta-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.cta-buttons a {
+  background: white;
+  color: #0e6e98;
+  padding: 14px 28px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.cta-buttons a:hover {
+  transform: translateY(-5px);
+  background-color: #f0f0f0;
+} 
