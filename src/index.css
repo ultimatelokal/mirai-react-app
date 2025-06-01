@@ -17,24 +17,6 @@ body {
   margin-right: auto; 
   min-height: 100vh; 
 }
-
-footer-container{
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: auto;
-  margin: 0 auto;
-  background-color: gray !important;
-}
-
- 
-footer{
-  display: flex;
-  flex-direction: column;
-  margin: 25px auto;
-  max-width: 1298px;
-  height: auto;
-}
  
 
 @media (prefers-color-scheme: light) {

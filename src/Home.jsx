@@ -205,16 +205,16 @@ function Home (){
                 </What-You-Get-Sub-Container>
             </What-You-Get-Container>
 
-            <Call-to-action-Container>
-                <div className="cta-section">
-      <h2>📞 Ready to Get Started?</h2>
-      <p>Let’s talk about how Miraitech can help your business. Call us today or request a quote!</p>
-      <div className="cta-buttons">
-        <a href="tel:1234567890" className="cta-call">Call Now: (123) 456-7890</a>
-        <a href="/contact" className="cta-quote">Request a Quote</a>
-      </div>
-    </div>
-            </Call-to-action-Container> 
+            <Cta-Container>
+            <div className="cta-sub-container">
+                <h2>📞 Ready to Get Started?</h2>
+                <p>Let’s talk about how Miraitech can help your business. Call us today or request a quote!</p>
+                <div className="cta-buttons">
+                    <a href="tel:1234567890" className="cta-call">Call Now: (123) 456-7890</a>
+                    <a href="/contact" className="cta-quote">Request a Quote</a>
+                </div>
+            </div>
+            </Cta-Container> 
 
         </Home-Container>
         
