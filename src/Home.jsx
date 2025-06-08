@@ -1,5 +1,6 @@
 import { Button, Container } from 'react-bootstrap';
-import './home.css';
+import './styles/Home.css';
+import './styles/Home-Mobile.css';
 import heroIMG from './images/home-page/hero-1.jpg';
 import testIMG from './images/home-page/test.jpg';
 import why_img from './images/home-page/why-choose-us.jpg';
@@ -115,42 +116,49 @@ function Home (){
             </Why-Choose-Container>
                      
             <Services-Container>
-                <Services-Sub-Container>
+                <div className='card-title'>
+                    <p>Our Services</p> 
+                </div>
+                <Services-Sub-Container> 
+                    <div className='card-container'>
+                        <div className='card'>
+                            <div> <img src= {testIMG} alt=''></img></div>
+                            <div>
+                                <p>🛡 CCTV Installation</p>
+                                <p>Protect your property with high-quality surveillance systems.</p>
+                            </div>
+                        </div>
+                        <div className='card'>
+                            <div> <img src= {testIMG} alt=''></img></div>
+                            <div>
+                                <p>🌐 Network & Wi-Fi Setup</p>
+                                <p>Reliable wired and wireless solutions for homes and businesses.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='card-container'>
+                        <div className='card'>
+                            <div> <img src= {testIMG} alt=''></img></div>
+                            <div>
+                                <p>💻 Web Services</p>
+                                <p>Websites that are fast, modern, and mobile-friendly.</p>
+                            </div>
+                        </div>
                     <div className='card'>
                         <div> <img src= {testIMG} alt=''></img></div>
                         <div>
-                        <p>🛡 CCTV Installation</p>
-                        <p>Protect your property with high-quality surveillance systems.</p>
+                            <p>🔧 And More…</p>
+                            <p>From computer repairs to audio systems — we’ve got you covered.</p>
                         </div>
                     </div>
-                    <div className='card'>
-                        <div> <img src= {testIMG} alt=''></img></div>
-                        <div>
-                        <p>🌐 Network & Wi-Fi Setup</p>
-                        <p>Reliable wired and wireless solutions for homes and businesses.</p>
-                        </div>
-                    </div>
-                    <div className='card'>
-                        <div> <img src= {testIMG} alt=''></img></div>
-                        <div>
-                        <p>💻 Web Services</p>
-                        <p>Websites that are fast, modern, and mobile-friendly.</p>
-                        </div>
-                    </div>
-                    <div className='card'>
-                        <div> <img src= {testIMG} alt=''></img></div>
-                        <div>
-                        <p>🔧 And More…</p>
-                        <p>From computer repairs to audio systems — we’ve got you covered.</p>
-                        </div>
-                    </div>
+                    </div> 
                 </Services-Sub-Container>
             </Services-Container>
 
             <What-You-Get-Container>
                 <What-You-Get-Sub-Container>
                     <div className='What-You-Get-title'>
-                        <h2>💡 What You Get With Miraitech</h2>
+                        <h2>💡What You Get</h2>
                         <p className="subtitle">Showcase benefits that matter to the customer</p>
                     </div>
                     <div className='benefit-main-container'>
@@ -207,11 +215,11 @@ function Home (){
 
             <Cta-Container>
             <div className="cta-sub-container">
-                <h2>📞 Ready to Get Started?</h2>
-                <p>Let’s talk about how Miraitech can help your business. Call us today or request a quote!</p>
+                <h2>Start Now</h2>
+                <p>Let’s Talk About Your Tech Needs! </p>
                 <div className="cta-buttons">
-                    <a href="tel:1234567890" className="cta-call">Call Now: (123) 456-7890</a>
-                    <a href="/contact" className="cta-quote">Request a Quote</a>
+                    <a href="tel:1234567890" className="cta-call">Call Now </a>
+                    <a href="/contact" className="cta-quote">Get a Quote</a>
                 </div>
             </div>
             </Cta-Container> 

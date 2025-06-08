@@ -156,7 +156,6 @@ hero-Container .hero-container-2 {
   max-width: 1298px;
   margin: 0 auto;
   padding: 50px 0;
-  
 }
 
 #particles-container {
@@ -312,10 +311,20 @@ Why-Choose-Sub-Container > div:nth-child(2) .card-container .card:hover  {
 
 Services-Container{  
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   max-width: 100%;
   height: auto;
   background-color: white;
+}
+
+services-Container .card-title {
+  display: flex;
+  flex-direction: column;
+  max-width: 1298px;
+  margin: auto;
+  font-size: 50px;
+  font-weight: bolder;
+  color: #1c2436;
 }
 
 Services-Sub-Container{
@@ -329,9 +338,17 @@ Services-Sub-Container{
  
 }
 
-Services-Sub-Container div{
+Services-Sub-Container .card-container .card >div:nth-child(1){
   overflow: hidden;
 }
+
+services-Sub-Container .card-container {
+  display: flex; 
+  flex-direction: row;
+  max-width: auto ;
+}
+ 
+
 
 Services-Sub-Container .card p:nth-child(1) {
    border-bottom: .5px solid rgb(206, 206, 206);  
@@ -343,21 +360,22 @@ Services-Sub-Container .card p:nth-child(1) {
    text-transform: uppercase;
 } 
 
+Services-Sub-Container .card {  
+   display: flex;
+   flex-direction: column;
+   /* max-width: 24%; */
+   height: auto;
+   border: .5px solid rgb(206, 206, 206); 
+   padding: 10px; 
+   margin-right: 20px;
+   transition: transform 0.3s ease;
+   overflow: hidden;
+}
+
 Services-Sub-Container .card img:nth-child(1){
   max-width: 100%;
   transition: transform 0.4s ease-in-out;
 } 
-
-Services-Sub-Container .card {
-   display: flex;
-   flex-direction: column;
-   max-width: 24%;
-   height: auto;
-   border: .5px solid rgb(206, 206, 206); 
-   padding: 10px;
-   margin: 0 auto;
-   transition: transform 0.3s ease;
-}
 
 Services-Sub-Container .card img:nth-child(1):hover {
   transform: scale(1.2);
@@ -368,6 +386,7 @@ Services-Sub-Container .card:hover  {
   transform: translateY(-10px);
   cursor: pointer;
 }
+ 
 
 /* What you get */
 

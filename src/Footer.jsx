@@ -1,6 +1,13 @@
 import React from 'react';
 import { FaFacebookF, FaInstagram, FaTwitter } from 'react-icons/fa';
-import './Footer.css'
+import './styles/Footer.css'
+import './styles/Footer-Mobile.css'
+import { BsPhone, BsPhoneFill } from 'react-icons/bs';
+import { MdAttachEmail, MdEmail, MdMarkEmailUnread, MdOutlineAttachEmail } from 'react-icons/md';
+import { ImPhoneHangUp } from 'react-icons/im';
+import { PiPhone } from 'react-icons/pi';
+import { TfiEmail } from 'react-icons/tfi';
+import { BiPhone } from 'react-icons/bi';
 
 function Footer(){
     return (
@@ -41,6 +48,13 @@ function Footer(){
               <a href="#"><FaFacebookF /></a>
               <a href="#"><FaInstagram /></a>
               <a href="#"><FaTwitter /></a>
+              </div>
+              <br></br>
+              <h5>Contact Us</h5>
+              <div className="social-icons">
+              <a href="#"><BiPhone/>   403-307-8375</a> <br></br>
+              <a href="#"><MdEmail />  miraitech.help@gmail.com</a>
+             
               </div>
             </div> 
           </div>
