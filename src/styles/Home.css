@@ -480,14 +480,14 @@ div .benefit-item:hover {
 .cta-sub-container {
   display: flex;
   flex-direction: column;
-  background: linear-gradient(to right, #0e6e98, #1e88e5, #64b5f6);
-  color: white;
+  /* background: linear-gradient(to right, #d1d1d1, #eceeef, transparent); */
+  background: linear-gradient(to bottom, #d1d1d1 5%, rgba(6, 6, 6, 0) 100%);
   text-align: center;
   padding: 60px 20px;
   border-radius: 12px;
   margin: 40px auto;
   max-width: 1298px;
-  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  /* box-shadow: 0 8px 16px rgba(0,0,0,0.2); */
 }
  
 .cta-sub-container h2 {
@@ -523,3 +523,11 @@ div .benefit-item:hover {
   transform: translateY(-5px);
   background-color: #f0f0f0;
 } 
+
+/* UPDATE GITHUB through GITBASH 
+
+1st : git add .
+2nd : git commit -m "your message here"
+3rd : git push -u origin main
+
+*/ 

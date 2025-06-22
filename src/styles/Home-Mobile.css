@@ -214,8 +214,7 @@
   .cta-sub-container {
     display: flex;
     flex-direction: column;
-    background: linear-gradient(to right, #0e6e98, #1e88e5, #64b5f6);
-    color: white;
+    
     text-align: center;
     padding: 45px 0px;
     border-radius: 12px;

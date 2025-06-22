@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaFacebookF, FaInstagram, FaTwitter } from 'react-icons/fa';
+import { FaFacebookF, FaInstagram, FaLinkedin } from 'react-icons/fa';
 import './styles/Footer.css'
 import './styles/Footer-Mobile.css'
 import { BsPhone, BsPhoneFill } from 'react-icons/bs';
@@ -12,7 +12,9 @@ import { BiPhone } from 'react-icons/bi';
 function Footer(){
     return (
       <footer className="footer">
+
         <div className="footer-container">
+
           <div className="footer-grid"> 
             {/* Company Info */}
             <div>
@@ -34,7 +36,7 @@ function Footer(){
             </div>
 
             {/* Business Hours */}
-              <div>
+            <div>
               <h5>Business Hours</h5>
               <p>Mon - Fri: 8:00 AM – 6:00 PM</p>
               <p>Sat: 10:00 AM – 3:00 PM</p>
@@ -43,11 +45,11 @@ function Footer(){
 
             {/* Social Media */}
             <div>
-              <h5>Follow Us</h5>
+              <h5>Our Socials</h5>
               <div className="social-icons">
               <a href="#"><FaFacebookF /></a>
               <a href="#"><FaInstagram /></a>
-              <a href="#"><FaTwitter /></a>
+              <a href="#"><FaLinkedin /></a>
               </div>
               <br></br>
               <h5>Contact Us</h5>
